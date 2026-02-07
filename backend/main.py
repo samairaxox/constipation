@@ -1,31 +1,11 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from .models import (
-    TrendAnalysisRequest, TrendAnalysisResponse,
-    EarlyWarningResponse,
-    NarrativeRequest, NarrativeResponse,
-    SimulationRequest, SimulationResponse,
-    ChatRequest, ChatResponse,
-    TrendSelectionResponse, FullTrendInsightResponse
-)
-from .services import (
-    analyze_trend_stub,
-    get_early_warning_stub,
-    featherless_narrative_agent,
-    run_simulation_stub,
-    chat_stub,
-    get_early_warning_stub,
-    featherless_narrative_agent,
-    run_simulation_stub,
-    chat_stub,
-    get_available_trends_service,
-    get_full_trend_insight,
-    run_simulation_with_saturation,
-    analyze_trend_filtered
-)
+from backend.services import get_available_brands_service, analyze_brand_service
+from backend.models import UnifiedResponseSchema
 
-app = FastAPI()
+app = FastAPI(title="Trend Decline Intelligence Agent")
 
+# CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -35,43 +15,27 @@ app.add_middleware(
 )
 
 @app.get("/")
-def health_check():
-    return {"status": "Backend running"}
+async def health_check():
+    return {"status": "Backend running", "mode": "Brand-Specific Trend Decline"}
 
-@app.get("/available-trends", response_model=TrendSelectionResponse)
-def available_trends():
-    return get_available_trends_service()
+@app.get("/available-brands")
+async def get_available_brands():
+    """
+    Returns list of curated brands (H&M, Blinkit, Zomato, Crocs).
+    """
+    return get_available_brands_service()
 
-@app.post("/full-trend-insight", response_model=FullTrendInsightResponse)
-def full_trend_insight(request: dict): # Accepting dict to get trend_id easily
-    trend_id = request.get("trend_id", "t1")
-    return get_full_trend_insight(trend_id)
+@app.post("/analyze-brand/{brand_id}", response_model=UnifiedResponseSchema)
+async def analyze_brand(brand_id: str):
+    """
+    Analyzes specific brand campaign trend using the Unified Intelligence Agent.
+    """
+    try:
+        return analyze_brand_service(brand_id)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/trend-analysis", response_model=TrendAnalysisResponse)
-def trend_analysis(request: TrendAnalysisRequest):
-    return analyze_trend_stub(request.trend_data)
-
-@app.post("/early-warning", response_model=EarlyWarningResponse)
-def early_warning(request: TrendAnalysisRequest):
-    return get_early_warning_stub(request.trend_data)
-
-@app.post("/trend-narrative", response_model=NarrativeResponse)
-def trend_narrative(request: NarrativeRequest):
-    return featherless_narrative_agent(request.trend_data)
-
-@app.post("/simulate-recovery", response_model=SimulationResponse)
-def simulate_recovery(request: SimulationRequest):
-    return run_simulation_with_saturation(request)
-
-@app.post("/trend-analysis-filtered", response_model=TrendAnalysisResponse)
-def trend_analysis_filtered(request: dict):
-    # Flexible input for filtering
-    return analyze_trend_filtered(request)
-
-@app.post("/chat-analysis", response_model=ChatResponse)
-def chat_analysis(request: ChatRequest):
-    return chat_stub(request.user_query, request.trend_context)
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+# Placeholder for compatibility if frontend still calls old route
+# But we are revamping so we prefer cleaner API.

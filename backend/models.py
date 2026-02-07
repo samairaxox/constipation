@@ -1,52 +1,33 @@
 from pydantic import BaseModel
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Optional, Any
 
-class TrendAnalysisRequest(BaseModel):
-    trend_data: Dict[str, Any]
+# --- Unified Response Schema ---
 
-class TrendAnalysisResponse(BaseModel):
+class DeclineDrivers(BaseModel):
+    engagement: str
+    sentiment: str
+    influencer: str
+    saturation: str
+
+class GraphData(BaseModel):
+    engagement_trend: List[float]
+    sentiment_trend: List[float]
+    influencer_trend: List[float]
+    decline_curve: List[float]
+    dates: List[Any] = [] # Optional for now
+
+class UnifiedResponseSchema(BaseModel):
+    brand_name: str
+    campaign_name: str
     decline_probability: float
     lifecycle_stage: str
-    decline_drivers: List[str]
+    health_score: float
+    collapse_eta_days: str
+    decline_drivers: DeclineDrivers
+    explainable_insights: str
+    graph_data: GraphData
 
-class EarlyWarningResponse(BaseModel):
-    decline_probability: float
-    days_to_collapse: int
-    risk_level: str
-
-class NarrativeRequest(BaseModel):
-    trend_data: Dict[str, Any]
-
-class NarrativeResponse(BaseModel):
-    explanation: str
-    source: str
-    model: str
-
-class SimulationRequest(BaseModel):
-    influencer_ratio: float
-    engagement_rate: float
-    sentiment_score: float
-    saturation_score: float = 0.0
-
-class SimulationResponse(BaseModel):
-    new_decline_probability: float
-    recovery_timeline: str
-    ai_explanation: str
-
-class ChatRequest(BaseModel):
-    user_query: str
-    trend_context: Optional[Dict[str, Any]] = None
-
-class ChatResponse(BaseModel):
-    response: str
-
-class TrendSelectionResponse(BaseModel):
-    trends: List[Dict[str, Any]]
-
-class FullTrendInsightResponse(BaseModel):
-    trend_id: str
-    trend_name: str
-    analysis: TrendAnalysisResponse
-    prediction: EarlyWarningResponse
-    narrative: NarrativeResponse
-    simulation_baseline: SimulationResponse
+# --- Request Models ---
+class TrendAnalysisRequest(BaseModel):
+    brand_name: str
+    campaign_data: List[Dict[str, Any]] # Time-series data points
