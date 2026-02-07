@@ -5,14 +5,23 @@ from .models import (
     EarlyWarningResponse,
     NarrativeRequest, NarrativeResponse,
     SimulationRequest, SimulationResponse,
-    ChatRequest, ChatResponse
+    ChatRequest, ChatResponse,
+    TrendSelectionResponse, FullTrendInsightResponse
 )
 from .services import (
     analyze_trend_stub,
     get_early_warning_stub,
     featherless_narrative_agent,
     run_simulation_stub,
-    chat_stub
+    chat_stub,
+    get_early_warning_stub,
+    featherless_narrative_agent,
+    run_simulation_stub,
+    chat_stub,
+    get_available_trends_service,
+    get_full_trend_insight,
+    run_simulation_with_saturation,
+    analyze_trend_filtered
 )
 
 app = FastAPI()
@@ -29,6 +38,15 @@ app.add_middleware(
 def health_check():
     return {"status": "Backend running"}
 
+@app.get("/available-trends", response_model=TrendSelectionResponse)
+def available_trends():
+    return get_available_trends_service()
+
+@app.post("/full-trend-insight", response_model=FullTrendInsightResponse)
+def full_trend_insight(request: dict): # Accepting dict to get trend_id easily
+    trend_id = request.get("trend_id", "t1")
+    return get_full_trend_insight(trend_id)
+
 @app.post("/trend-analysis", response_model=TrendAnalysisResponse)
 def trend_analysis(request: TrendAnalysisRequest):
     return analyze_trend_stub(request.trend_data)
@@ -43,7 +61,12 @@ def trend_narrative(request: NarrativeRequest):
 
 @app.post("/simulate-recovery", response_model=SimulationResponse)
 def simulate_recovery(request: SimulationRequest):
-    return run_simulation_stub(request)
+    return run_simulation_with_saturation(request)
+
+@app.post("/trend-analysis-filtered", response_model=TrendAnalysisResponse)
+def trend_analysis_filtered(request: dict):
+    # Flexible input for filtering
+    return analyze_trend_filtered(request)
 
 @app.post("/chat-analysis", response_model=ChatResponse)
 def chat_analysis(request: ChatRequest):
