@@ -1,0 +1,752 @@
+[
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-11-24",
+    "post_count": 59,
+    "engagement_rate": 0.0524,
+    "sentiment_score": 0.5619,
+    "influencer_ratio": 0.2416,
+    "saturation_score": 0.0,
+    "algorithm_boost": 1.94
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-11-25",
+    "post_count": 384,
+    "engagement_rate": 0.0673,
+    "sentiment_score": 0.6979,
+    "influencer_ratio": 0.234,
+    "saturation_score": 0.0,
+    "algorithm_boost": 1.68
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-11-26",
+    "post_count": 676,
+    "engagement_rate": 0.0756,
+    "sentiment_score": 0.8543,
+    "influencer_ratio": 0.2747,
+    "saturation_score": 4.13,
+    "algorithm_boost": 1.93
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-11-27",
+    "post_count": 1088,
+    "engagement_rate": 0.086,
+    "sentiment_score": 0.7209,
+    "influencer_ratio": 0.2341,
+    "saturation_score": 6.57,
+    "algorithm_boost": 1.81
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-11-28",
+    "post_count": 989,
+    "engagement_rate": 0.0844,
+    "sentiment_score": 0.6512,
+    "influencer_ratio": 0.2242,
+    "saturation_score": 4.04,
+    "algorithm_boost": 1.87
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-11-29",
+    "post_count": 1002,
+    "engagement_rate": 0.0919,
+    "sentiment_score": 0.6508,
+    "influencer_ratio": 0.1703,
+    "saturation_score": 8.39,
+    "algorithm_boost": 1.74
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-11-30",
+    "post_count": 909,
+    "engagement_rate": 0.0827,
+    "sentiment_score": 0.6094,
+    "influencer_ratio": 0.2346,
+    "saturation_score": 9.51,
+    "algorithm_boost": 1.58
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-01",
+    "post_count": 1192,
+    "engagement_rate": 0.0864,
+    "sentiment_score": 0.6693,
+    "influencer_ratio": 0.2745,
+    "saturation_score": 4.06,
+    "algorithm_boost": 1.69
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-02",
+    "post_count": 1039,
+    "engagement_rate": 0.0909,
+    "sentiment_score": 0.6782,
+    "influencer_ratio": 0.237,
+    "saturation_score": 7.37,
+    "algorithm_boost": 1.8
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-03",
+    "post_count": 1396,
+    "engagement_rate": 0.1106,
+    "sentiment_score": 0.7706,
+    "influencer_ratio": 0.175,
+    "saturation_score": 19.4,
+    "algorithm_boost": 2.0
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-04",
+    "post_count": 1508,
+    "engagement_rate": 0.1066,
+    "sentiment_score": 0.5825,
+    "influencer_ratio": 0.2732,
+    "saturation_score": 9.32,
+    "algorithm_boost": 2.0
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-05",
+    "post_count": 1178,
+    "engagement_rate": 0.0917,
+    "sentiment_score": 0.6777,
+    "influencer_ratio": 0.2654,
+    "saturation_score": 17.38,
+    "algorithm_boost": 1.8
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-06",
+    "post_count": 970,
+    "engagement_rate": 0.0795,
+    "sentiment_score": 0.662,
+    "influencer_ratio": 0.2349,
+    "saturation_score": 8.25,
+    "algorithm_boost": 1.81
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-07",
+    "post_count": 1149,
+    "engagement_rate": 0.0975,
+    "sentiment_score": 0.401,
+    "influencer_ratio": 0.2645,
+    "saturation_score": 21.97,
+    "algorithm_boost": 1.67
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-08",
+    "post_count": 1634,
+    "engagement_rate": 0.1039,
+    "sentiment_score": 0.6083,
+    "influencer_ratio": 0.2667,
+    "saturation_score": 23.89,
+    "algorithm_boost": 1.88
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-09",
+    "post_count": 1483,
+    "engagement_rate": 0.0745,
+    "sentiment_score": 0.6519,
+    "influencer_ratio": 0.28,
+    "saturation_score": 20.76,
+    "algorithm_boost": 1.21
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-10",
+    "post_count": 2040,
+    "engagement_rate": 0.0877,
+    "sentiment_score": 0.6882,
+    "influencer_ratio": 0.2589,
+    "saturation_score": 22.59,
+    "algorithm_boost": 1.35
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-11",
+    "post_count": 1306,
+    "engagement_rate": 0.1104,
+    "sentiment_score": 0.7167,
+    "influencer_ratio": 0.2552,
+    "saturation_score": 16.58,
+    "algorithm_boost": 1.46
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-12",
+    "post_count": 845,
+    "engagement_rate": 0.1252,
+    "sentiment_score": 0.6275,
+    "influencer_ratio": 0.2385,
+    "saturation_score": 21.69,
+    "algorithm_boost": 1.13
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-13",
+    "post_count": 1950,
+    "engagement_rate": 0.1111,
+    "sentiment_score": 0.7181,
+    "influencer_ratio": 0.224,
+    "saturation_score": 26.06,
+    "algorithm_boost": 1.09
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-14",
+    "post_count": 1549,
+    "engagement_rate": 0.0995,
+    "sentiment_score": 0.6516,
+    "influencer_ratio": 0.2518,
+    "saturation_score": 31.22,
+    "algorithm_boost": 1.3
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-15",
+    "post_count": 816,
+    "engagement_rate": 0.112,
+    "sentiment_score": 0.7614,
+    "influencer_ratio": 0.2421,
+    "saturation_score": 41.6,
+    "algorithm_boost": 1.39
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-16",
+    "post_count": 1392,
+    "engagement_rate": 0.0954,
+    "sentiment_score": 0.76,
+    "influencer_ratio": 0.2619,
+    "saturation_score": 20.42,
+    "algorithm_boost": 1.26
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-17",
+    "post_count": 1101,
+    "engagement_rate": 0.0995,
+    "sentiment_score": 0.682,
+    "influencer_ratio": 0.1664,
+    "saturation_score": 34.55,
+    "algorithm_boost": 1.46
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-18",
+    "post_count": 1884,
+    "engagement_rate": 0.1007,
+    "sentiment_score": 0.3722,
+    "influencer_ratio": 0.172,
+    "saturation_score": 37.48,
+    "algorithm_boost": 1.25
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-19",
+    "post_count": 2057,
+    "engagement_rate": 0.0952,
+    "sentiment_score": 0.6154,
+    "influencer_ratio": 0.1817,
+    "saturation_score": 27.62,
+    "algorithm_boost": 1.35
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-20",
+    "post_count": 1901,
+    "engagement_rate": 0.1116,
+    "sentiment_score": 0.5001,
+    "influencer_ratio": 0.2215,
+    "saturation_score": 39.19,
+    "algorithm_boost": 1.21
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-21",
+    "post_count": 1685,
+    "engagement_rate": 0.0989,
+    "sentiment_score": 0.6115,
+    "influencer_ratio": 0.1633,
+    "saturation_score": 35.36,
+    "algorithm_boost": 1.07
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-22",
+    "post_count": 1490,
+    "engagement_rate": 0.1377,
+    "sentiment_score": 0.4967,
+    "influencer_ratio": 0.1663,
+    "saturation_score": 35.27,
+    "algorithm_boost": 1.39
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-23",
+    "post_count": 1372,
+    "engagement_rate": 0.0999,
+    "sentiment_score": 0.6929,
+    "influencer_ratio": 0.1819,
+    "saturation_score": 33.28,
+    "algorithm_boost": 1.19
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-24",
+    "post_count": 725,
+    "engagement_rate": 0.1167,
+    "sentiment_score": 0.701,
+    "influencer_ratio": 0.1755,
+    "saturation_score": 38.13,
+    "algorithm_boost": 1.11
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-25",
+    "post_count": 1666,
+    "engagement_rate": 0.1355,
+    "sentiment_score": 0.6589,
+    "influencer_ratio": 0.1805,
+    "saturation_score": 43.54,
+    "algorithm_boost": 1.46
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-26",
+    "post_count": 1546,
+    "engagement_rate": 0.0988,
+    "sentiment_score": 0.7313,
+    "influencer_ratio": 0.167,
+    "saturation_score": 39.0,
+    "algorithm_boost": 1.21
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-27",
+    "post_count": 1375,
+    "engagement_rate": 0.131,
+    "sentiment_score": 0.5003,
+    "influencer_ratio": 0.1335,
+    "saturation_score": 42.28,
+    "algorithm_boost": 1.33
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-28",
+    "post_count": 2012,
+    "engagement_rate": 0.1223,
+    "sentiment_score": 0.6017,
+    "influencer_ratio": 0.2295,
+    "saturation_score": 38.7,
+    "algorithm_boost": 1.58
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-29",
+    "post_count": 1618,
+    "engagement_rate": 0.0843,
+    "sentiment_score": 0.5829,
+    "influencer_ratio": 0.1698,
+    "saturation_score": 42.59,
+    "algorithm_boost": 1.4
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-30",
+    "post_count": 2353,
+    "engagement_rate": 0.1202,
+    "sentiment_score": 0.5307,
+    "influencer_ratio": 0.1426,
+    "saturation_score": 56.16,
+    "algorithm_boost": 1.09
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2025-12-31",
+    "post_count": 1525,
+    "engagement_rate": 0.0966,
+    "sentiment_score": 0.5054,
+    "influencer_ratio": 0.1818,
+    "saturation_score": 61.07,
+    "algorithm_boost": 1.36
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-01",
+    "post_count": 1109,
+    "engagement_rate": 0.1159,
+    "sentiment_score": 0.6048,
+    "influencer_ratio": 0.1844,
+    "saturation_score": 56.53,
+    "algorithm_boost": 0.78
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-02",
+    "post_count": 1438,
+    "engagement_rate": 0.0931,
+    "sentiment_score": 0.5644,
+    "influencer_ratio": 0.1944,
+    "saturation_score": 54.34,
+    "algorithm_boost": 0.87
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-03",
+    "post_count": 1991,
+    "engagement_rate": 0.12,
+    "sentiment_score": 0.4914,
+    "influencer_ratio": 0.1862,
+    "saturation_score": 57.76,
+    "algorithm_boost": 0.63
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-04",
+    "post_count": 2343,
+    "engagement_rate": 0.0898,
+    "sentiment_score": 0.4535,
+    "influencer_ratio": 0.2385,
+    "saturation_score": 54.47,
+    "algorithm_boost": 0.78
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-05",
+    "post_count": 1992,
+    "engagement_rate": 0.1032,
+    "sentiment_score": 0.6133,
+    "influencer_ratio": 0.1989,
+    "saturation_score": 51.86,
+    "algorithm_boost": 0.62
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-06",
+    "post_count": 1070,
+    "engagement_rate": 0.1313,
+    "sentiment_score": 0.6968,
+    "influencer_ratio": 0.1615,
+    "saturation_score": 59.25,
+    "algorithm_boost": 0.77
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-07",
+    "post_count": 1082,
+    "engagement_rate": 0.0732,
+    "sentiment_score": 0.6793,
+    "influencer_ratio": 0.1668,
+    "saturation_score": 56.63,
+    "algorithm_boost": 0.74
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-08",
+    "post_count": 1560,
+    "engagement_rate": 0.0906,
+    "sentiment_score": 0.8454,
+    "influencer_ratio": 0.0337,
+    "saturation_score": 55.79,
+    "algorithm_boost": 0.76
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-09",
+    "post_count": 1104,
+    "engagement_rate": 0.0918,
+    "sentiment_score": 0.5257,
+    "influencer_ratio": 0.0979,
+    "saturation_score": 57.24,
+    "algorithm_boost": 1.01
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-10",
+    "post_count": 1482,
+    "engagement_rate": 0.1134,
+    "sentiment_score": 0.7263,
+    "influencer_ratio": 0.0697,
+    "saturation_score": 63.91,
+    "algorithm_boost": 0.75
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-11",
+    "post_count": 1004,
+    "engagement_rate": 0.1145,
+    "sentiment_score": 0.517,
+    "influencer_ratio": 0.0825,
+    "saturation_score": 62.71,
+    "algorithm_boost": 0.88
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-12",
+    "post_count": 1044,
+    "engagement_rate": 0.0747,
+    "sentiment_score": 0.5272,
+    "influencer_ratio": 0.0366,
+    "saturation_score": 58.3,
+    "algorithm_boost": 0.59
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-13",
+    "post_count": 761,
+    "engagement_rate": 0.0836,
+    "sentiment_score": 0.6478,
+    "influencer_ratio": 0.0536,
+    "saturation_score": 62.71,
+    "algorithm_boost": 0.52
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-14",
+    "post_count": 1039,
+    "engagement_rate": 0.0773,
+    "sentiment_score": 0.4955,
+    "influencer_ratio": 0.0595,
+    "saturation_score": 67.76,
+    "algorithm_boost": 0.89
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-15",
+    "post_count": 550,
+    "engagement_rate": 0.0863,
+    "sentiment_score": 0.4811,
+    "influencer_ratio": 0.0921,
+    "saturation_score": 72.78,
+    "algorithm_boost": 0.64
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-16",
+    "post_count": 904,
+    "engagement_rate": 0.0966,
+    "sentiment_score": 0.4594,
+    "influencer_ratio": 0.0814,
+    "saturation_score": 72.61,
+    "algorithm_boost": 0.66
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-17",
+    "post_count": 1044,
+    "engagement_rate": 0.0784,
+    "sentiment_score": 0.5314,
+    "influencer_ratio": 0.0816,
+    "saturation_score": 83.38,
+    "algorithm_boost": 0.76
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-18",
+    "post_count": 1112,
+    "engagement_rate": 0.0666,
+    "sentiment_score": 0.6326,
+    "influencer_ratio": 0.091,
+    "saturation_score": 74.38,
+    "algorithm_boost": 0.57
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-19",
+    "post_count": 392,
+    "engagement_rate": 0.0652,
+    "sentiment_score": 0.392,
+    "influencer_ratio": 0.062,
+    "saturation_score": 64.05,
+    "algorithm_boost": 0.62
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-20",
+    "post_count": 670,
+    "engagement_rate": 0.0595,
+    "sentiment_score": 0.3382,
+    "influencer_ratio": 0.0703,
+    "saturation_score": 67.7,
+    "algorithm_boost": 0.96
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-21",
+    "post_count": 531,
+    "engagement_rate": 0.0529,
+    "sentiment_score": 0.5422,
+    "influencer_ratio": 0.1243,
+    "saturation_score": 80.83,
+    "algorithm_boost": 0.68
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-22",
+    "post_count": 725,
+    "engagement_rate": 0.056,
+    "sentiment_score": 0.483,
+    "influencer_ratio": 0.122,
+    "saturation_score": 76.43,
+    "algorithm_boost": 0.75
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-23",
+    "post_count": 389,
+    "engagement_rate": 0.0608,
+    "sentiment_score": 0.3984,
+    "influencer_ratio": 0.1231,
+    "saturation_score": 81.29,
+    "algorithm_boost": 0.88
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-24",
+    "post_count": 548,
+    "engagement_rate": 0.0633,
+    "sentiment_score": 0.6472,
+    "influencer_ratio": 0.0896,
+    "saturation_score": 82.3,
+    "algorithm_boost": 0.94
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-25",
+    "post_count": 216,
+    "engagement_rate": 0.0596,
+    "sentiment_score": 0.407,
+    "influencer_ratio": 0.0987,
+    "saturation_score": 77.33,
+    "algorithm_boost": 0.68
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-26",
+    "post_count": 95,
+    "engagement_rate": 0.0457,
+    "sentiment_score": 0.3809,
+    "influencer_ratio": 0.0901,
+    "saturation_score": 86.47,
+    "algorithm_boost": 0.7
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-27",
+    "post_count": 257,
+    "engagement_rate": 0.0553,
+    "sentiment_score": 0.4555,
+    "influencer_ratio": 0.1265,
+    "saturation_score": 86.18,
+    "algorithm_boost": 0.87
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-28",
+    "post_count": 258,
+    "engagement_rate": 0.0546,
+    "sentiment_score": 0.6939,
+    "influencer_ratio": 0.1219,
+    "saturation_score": 84.72,
+    "algorithm_boost": 0.87
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-29",
+    "post_count": 99,
+    "engagement_rate": 0.0565,
+    "sentiment_score": 0.5418,
+    "influencer_ratio": 0.0272,
+    "saturation_score": 82.08,
+    "algorithm_boost": 0.5
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-30",
+    "post_count": 191,
+    "engagement_rate": 0.0584,
+    "sentiment_score": 0.6039,
+    "influencer_ratio": 0.106,
+    "saturation_score": 88.82,
+    "algorithm_boost": 0.73
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-01-31",
+    "post_count": 84,
+    "engagement_rate": 0.0369,
+    "sentiment_score": 0.4265,
+    "influencer_ratio": 0.1039,
+    "saturation_score": 89.26,
+    "algorithm_boost": 0.5
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-02-01",
+    "post_count": 23,
+    "engagement_rate": 0.0356,
+    "sentiment_score": 0.5446,
+    "influencer_ratio": 0.0913,
+    "saturation_score": 85.14,
+    "algorithm_boost": 0.77
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-02-02",
+    "post_count": 154,
+    "engagement_rate": 0.034,
+    "sentiment_score": 0.4567,
+    "influencer_ratio": 0.0518,
+    "saturation_score": 90.76,
+    "algorithm_boost": 0.54
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-02-03",
+    "post_count": 239,
+    "engagement_rate": 0.0533,
+    "sentiment_score": 0.5234,
+    "influencer_ratio": 0.0823,
+    "saturation_score": 96.43,
+    "algorithm_boost": 0.79
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-02-04",
+    "post_count": 27,
+    "engagement_rate": 0.0422,
+    "sentiment_score": 0.3305,
+    "influencer_ratio": 0.0632,
+    "saturation_score": 88.83,
+    "algorithm_boost": 0.67
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-02-05",
+    "post_count": 133,
+    "engagement_rate": 0.0488,
+    "sentiment_score": 0.3261,
+    "influencer_ratio": 0.0612,
+    "saturation_score": 95.97,
+    "algorithm_boost": 0.99
+  },
+  {
+    "trend_name": "Viral Dance Challenge",
+    "date": "2026-02-06",
+    "post_count": 0,
+    "engagement_rate": 0.0437,
+    "sentiment_score": 0.3928,
+    "influencer_ratio": 0.0734,
+    "saturation_score": 100.0,
+    "algorithm_boost": 0.81
+  }
+]

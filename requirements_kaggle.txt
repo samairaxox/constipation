@@ -1,0 +1,11 @@
+# Real Dataset Requirements
+# Add these to the existing requirements
+
+# Kaggle dataset integration
+kagglehub>=0.2.0
+
+# Data processing
+scikit-learn>=1.3.0
+
+# Optional: Advanced analytics
+scipy>=1.11.0
